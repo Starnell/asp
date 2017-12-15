@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+}
+a:link,a:visited,a:hover,a:active {
+    text-decoration: none;
+    color: #CC0000;
+}
+a:hover {
+    text-decoration: underline;
+}
+#main{
+    width: 720px;
+    margin: 0 auto;
+    text-align: left;
+}
+#header{
+    text-align: center;
+}
+h3{
+    color: #cc0000;
+    font-size: 15px;
+}
+.style0{
+    font-size: 12px;
+    text-indent: 9px;
+    background: #F0F0F0;
+    border-left:4px solid #CC0000;
+    margin-top:15px;
+    padding:5px 0 5px;
+}
+.content{
+    font-size: 14px;
+    word-break: break-all;/*单词内的断句*/
+}
+fieldset{
+    margin: 20px 12px 0 12px;
+    border: 1px solid red;
+}
+fieldset legend{
+    color: #CC0000;
+    font-weight: bold;
+    font-size: 14px;
+}
+fieldset table{
+    margin: 8px 0 4px;
+    font-size: 14px;
+}
+.paginate{
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+}
+.content{
+    margin-left: 10px;
+}
