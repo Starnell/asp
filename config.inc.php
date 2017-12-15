@@ -2,10 +2,7 @@
 session_start();
 include_once 'Common/functions.php';
 date_default_timezone_set('Asia/Shanghai');
-<<<<<<< HEAD
-=======
 header("Content-type:text/html;charset=utf8");
->>>>>>> newbranch
 //数据库配置
 $configs=array(
     'db_host'=>'localhost',
