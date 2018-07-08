@@ -1,13 +1,13 @@
-这是个简单的留言板！
+这是个简单的留言板！  
 一、数据库asp
 ```php
-//表user
+//table user
 class user{
     public $id;       //用户id(int)   
-    public $username; //用户名(string)   使用admin
+    public $username; //用户名(string)       使用admin
     public $password; //密码md5加密(string)  使用admin
 }
-//表message
+//table message
 class message{
     public $id;     //留言id(int)
     public $title;  //留言标题(string)
@@ -18,9 +18,6 @@ class message{
 }
 ```
 
-二、配置文件 /asp/config.inc.php
-1、数据库配置
+二、配置文件 /asp/config.inc.php  
+1、数据库配置  
 2、模板引擎配置
-
-三、数据库连接 /asp/config.inc.php
-1、使用PDO连接数据库
