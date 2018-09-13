@@ -1,5 +1,4 @@
-这是个简单的留言板！  
-一、数据库asp
+### 一、数据库asp
 ```php
 //table user
 class user{
@@ -18,6 +17,6 @@ class message{
 }
 ```
 
-二、配置文件 /asp/config.inc.php  
+### 二、配置文件 /asp/config.inc.php  
 1、数据库配置  
 2、模板引擎配置
